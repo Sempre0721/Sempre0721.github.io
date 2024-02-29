@@ -214,44 +214,6 @@
 </li>
 
                 
-            
-            
-                <li class="archive-article">
-    <div class="archive-article-date-wrap">
-        <a href="/2023/12/17/npm%E6%8D%A2%E6%BA%90/">
-            <time class="dt-published" datetime="2023-12-17T11:06:00.303Z"
-                  itemprop="datePublished">12-17</time>
-        </a>
-    </div>
-    <div class="archive-article-title-wrap">
-        
-            
-                <a class="archive-article-title" href="/2023/12/17/npm%E6%8D%A2%E6%BA%90/">NPM换源方法</a>
-            
-        
-    </div>
-</li>
-
-                
-            
-            
-                <li class="archive-article">
-    <div class="archive-article-date-wrap">
-        <a href="/2023/12/14/hello-world/">
-            <time class="dt-published" datetime="2023-12-14T10:21:31.262Z"
-                  itemprop="datePublished">12-14</time>
-        </a>
-    </div>
-    <div class="archive-article-title-wrap">
-        
-            
-                <a class="archive-article-title" href="/2023/12/14/hello-world/">Hello World</a>
-            
-        
-    </div>
-</li>
-
-                
                 
             </ul>
         </div>
@@ -491,6 +453,30 @@
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "1AVZraEwlUApeZ2XN2C0p3Ya-gzGzoHsz",
+            appKey: "yeift8Inkg63nSmZypxBa3i1",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 

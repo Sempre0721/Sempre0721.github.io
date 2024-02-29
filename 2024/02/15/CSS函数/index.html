@@ -754,8 +754,14 @@
             
         </div>
         <footer class="article-footer">
-            <a data-url="http://example.com/2024/02/15/CSS%E5%87%BD%E6%95%B0/" data-id="clsn0ym6q0007nwie3ny273xi" data-title="CSS函数"
+            <a data-url="http://example.com/2024/02/15/CSS%E5%87%BD%E6%95%B0/" data-id="clt6x72hg0007jwgq5bjs5g6p" data-title="CSS函数"
                class="article-share-link">Share</a>
+            
+                <a href="/2024/02/15/CSS%E5%87%BD%E6%95%B0/#comments" class="article-comment-link">
+                    <span class="post-comments-count valine-comment-count" data-xid="/2024/02/15/CSS%E5%87%BD%E6%95%B0/"
+                          itemprop="commentCount"></span>
+                    Comments
+                </a>
             
             
             
@@ -808,6 +814,10 @@
     
 </article>
 
+
+    <section id="comments" class="vcomment">
+
+    </section>
 
 
 
@@ -1048,6 +1058,30 @@
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "1AVZraEwlUApeZ2XN2C0p3Ya-gzGzoHsz",
+            appKey: "yeift8Inkg63nSmZypxBa3i1",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 

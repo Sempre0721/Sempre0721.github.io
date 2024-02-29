@@ -161,6 +161,80 @@
         
     <div class="post-wrap-left wow fadeInUp">
         
+            <a class="post-link" href="/2024/02/29/npm%E6%8D%A2%E6%BA%90/"></a>
+        
+        
+        <div class="post-cover-left">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="NPM换源方法" class="lazyload">
+                
+            
+
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2024-02-29</a>
+                
+                    <a><span class="icon-pencil"></span>8 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>1 min</a>
+                
+            </div>
+            <h2 class="post-title">NPM换源方法</h2>
+            <article class="post-article">
+                
+                    npm config set registry https://registry.npmmirror.com
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-right wow fadeInUp">
+        
+            <a class="post-link" href="/2024/02/29/hello-world/"></a>
+        
+        <div class="post-cover-right">
+            
+                
+                
+                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="Hello World" class="lazyload">
+                
+            
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2024-02-29</a>
+                
+                    <a><span class="icon-pencil"></span>88 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>1 min</a>
+                
+            </div>
+            <h2 class="post-title">Hello World</h2>
+            <article class="post-article">
+                
+                    Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &amp;quot;My New Post&amp;quot;
+
+More info: Writing
+Run server1$ hexo ser
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-left wow fadeInUp">
+        
             <a class="post-link" href="/2024/02/15/pip%E6%AD%A3%E7%A1%AE%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95/"></a>
         
         
@@ -442,80 +516,6 @@ https://blog.csdn.net/ACE_U_005A/article/details/114882838
 
 
     
-        
-    <div class="post-wrap-right wow fadeInUp">
-        
-            <a class="post-link" href="/2023/12/17/npm%E6%8D%A2%E6%BA%90/"></a>
-        
-        <div class="post-cover-right">
-            
-                
-                
-                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="NPM换源方法" class="lazyload">
-                
-            
-        </div>
-        <div class="post-info">
-            <div class="post-meta">
-                <a><span class="icon-calendar"></span>2023-12-17</a>
-                
-                    <a><span class="icon-pencil"></span>8 words</a>
-                
-                
-                    <a><span class="icon-clock"></span>1 min</a>
-                
-            </div>
-            <h2 class="post-title">NPM换源方法</h2>
-            <article class="post-article">
-                
-                    npm config set registry https://registry.npmmirror.com
-                
-            </article>
-        </div>
-    </div>
-
-
-    
-        
-    <div class="post-wrap-left wow fadeInUp">
-        
-            <a class="post-link" href="/2023/12/14/hello-world/"></a>
-        
-        
-        <div class="post-cover-left">
-            
-                
-                
-                    <img data-src="/images/banner.jpg" data-sizes="auto" alt="Hello World" class="lazyload">
-                
-            
-
-        </div>
-        <div class="post-info">
-            <div class="post-meta">
-                <a><span class="icon-calendar"></span>2023-12-14</a>
-                
-                    <a><span class="icon-pencil"></span>88 words</a>
-                
-                
-                    <a><span class="icon-clock"></span>1 min</a>
-                
-            </div>
-            <h2 class="post-title">Hello World</h2>
-            <article class="post-article">
-                
-                    Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &amp;quot;My New Post&amp;quot;
-
-More info: Writing
-Run server1$ hexo ser
-                
-            </article>
-        </div>
-    </div>
-
-
-    
 
 
 
@@ -749,6 +749,30 @@ Run server1$ hexo ser
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "1AVZraEwlUApeZ2XN2C0p3Ya-gzGzoHsz",
+            appKey: "yeift8Inkg63nSmZypxBa3i1",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 

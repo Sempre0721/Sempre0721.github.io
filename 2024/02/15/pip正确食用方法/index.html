@@ -193,8 +193,14 @@
             
         </div>
         <footer class="article-footer">
-            <a data-url="http://example.com/2024/02/15/pip%E6%AD%A3%E7%A1%AE%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95/" data-id="clsn24wwv000098ieef6oglcj" data-title="pip正确食用方法"
+            <a data-url="http://example.com/2024/02/15/pip%E6%AD%A3%E7%A1%AE%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95/" data-id="clt6x72he0004jwgqbripfhom" data-title="pip正确食用方法"
                class="article-share-link">Share</a>
+            
+                <a href="/2024/02/15/pip%E6%AD%A3%E7%A1%AE%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95/#comments" class="article-comment-link">
+                    <span class="post-comments-count valine-comment-count" data-xid="/2024/02/15/pip%E6%AD%A3%E7%A1%AE%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95/"
+                          itemprop="commentCount"></span>
+                    Comments
+                </a>
             
             
             
@@ -205,6 +211,23 @@
     
         
     <nav id="article-nav" class="wow fadeInUp">
+        
+            <div class="article-nav-link-wrap article-nav-link-left">
+                
+                    
+                    
+                        <img data-src="/images/banner.jpg" data-sizes="auto" alt="Hello World"
+                             class="lazyload">
+                    
+                
+                <a href="/2024/02/29/hello-world/"></a>
+                <div class="article-nav-caption">Newer</div>
+                <h3 class="article-nav-title">
+                    
+                        Hello World
+                    
+                </h3>
+            </div>
         
         
             <div class="article-nav-link-wrap article-nav-link-right">
@@ -230,6 +253,10 @@
     
 </article>
 
+
+    <section id="comments" class="vcomment">
+
+    </section>
 
 
 
@@ -470,6 +497,30 @@
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "1AVZraEwlUApeZ2XN2C0p3Ya-gzGzoHsz",
+            appKey: "yeift8Inkg63nSmZypxBa3i1",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 

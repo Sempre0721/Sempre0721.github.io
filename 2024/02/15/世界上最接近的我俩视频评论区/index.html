@@ -1876,8 +1876,14 @@
             
         </div>
         <footer class="article-footer">
-            <a data-url="http://example.com/2024/02/15/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E6%88%91%E4%BF%A9%E8%A7%86%E9%A2%91%E8%AF%84%E8%AE%BA%E5%8C%BA/" data-id="clsn0ym6k0006nwie39sf6yo2" data-title="世界上最接近的我俩视频评论区"
+            <a data-url="http://example.com/2024/02/15/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E6%88%91%E4%BF%A9%E8%A7%86%E9%A2%91%E8%AF%84%E8%AE%BA%E5%8C%BA/" data-id="clt6x72hf0006jwgqb7uv8mpv" data-title="世界上最接近的我俩视频评论区"
                class="article-share-link">Share</a>
+            
+                <a href="/2024/02/15/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E6%88%91%E4%BF%A9%E8%A7%86%E9%A2%91%E8%AF%84%E8%AE%BA%E5%8C%BA/#comments" class="article-comment-link">
+                    <span class="post-comments-count valine-comment-count" data-xid="/2024/02/15/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E6%88%91%E4%BF%A9%E8%A7%86%E9%A2%91%E8%AF%84%E8%AE%BA%E5%8C%BA/"
+                          itemprop="commentCount"></span>
+                    Comments
+                </a>
             
             
             
@@ -1930,6 +1936,10 @@
     
 </article>
 
+
+    <section id="comments" class="vcomment">
+
+    </section>
 
 
 
@@ -2170,6 +2180,30 @@
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "1AVZraEwlUApeZ2XN2C0p3Ya-gzGzoHsz",
+            appKey: "yeift8Inkg63nSmZypxBa3i1",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 

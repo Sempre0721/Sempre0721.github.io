@@ -187,8 +187,14 @@
             
         </div>
         <footer class="article-footer">
-            <a data-url="http://example.com/2023/12/17/%E6%88%91%E6%83%B3%E6%88%90%E4%B8%BA%E4%BD%A0%E7%9A%84%E7%9C%BC%E6%B3%AA/" data-id="clsn0ym6k0004nwie697n0h3j" data-title="我想成为你的眼泪"
+            <a data-url="http://example.com/2023/12/17/%E6%88%91%E6%83%B3%E6%88%90%E4%B8%BA%E4%BD%A0%E7%9A%84%E7%9C%BC%E6%B3%AA/" data-id="clt6x72hg0008jwgq93cxb6kd" data-title="我想成为你的眼泪"
                class="article-share-link">Share</a>
+            
+                <a href="/2023/12/17/%E6%88%91%E6%83%B3%E6%88%90%E4%B8%BA%E4%BD%A0%E7%9A%84%E7%9C%BC%E6%B3%AA/#comments" class="article-comment-link">
+                    <span class="post-comments-count valine-comment-count" data-xid="/2023/12/17/%E6%88%91%E6%83%B3%E6%88%90%E4%B8%BA%E4%BD%A0%E7%9A%84%E7%9C%BC%E6%B3%AA/"
+                          itemprop="commentCount"></span>
+                    Comments
+                </a>
             
             
             
@@ -218,29 +224,16 @@
             </div>
         
         
-            <div class="article-nav-link-wrap article-nav-link-right">
-                
-                    
-                    
-                        <img data-src="/images/banner.jpg" data-sizes="auto" alt="NPM换源方法"
-                             class="lazyload">
-                    
-                
-                <a href="/2023/12/17/npm%E6%8D%A2%E6%BA%90/"></a>
-                <div class="article-nav-caption">Older</div>
-                <h3 class="article-nav-title">
-                    
-                        NPM换源方法
-                    
-                </h3>
-            </div>
-        
     </nav>
 
 
     
 </article>
 
+
+    <section id="comments" class="vcomment">
+
+    </section>
 
 
 
@@ -481,6 +474,30 @@
 
 
 
+
+    
+<script src="https://unpkg.com/valine@1.5.1/dist/Valine.min.js"></script>
+
+    <script>
+        var GUEST_INFO = ['nick', 'mail', 'link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        var recordIP = JSON.parse('true');
+        var highlight = JSON.parse('true');
+
+        new Valine({
+            el: '.vcomment',
+            appId: "1AVZraEwlUApeZ2XN2C0p3Ya-gzGzoHsz",
+            appKey: "yeift8Inkg63nSmZypxBa3i1",
+            placeholder: "Just go go",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: 'zh-cn',
+            recordIP: recordIP,
+            highlight: highlight
+        });
+    </script>
 
 
 
